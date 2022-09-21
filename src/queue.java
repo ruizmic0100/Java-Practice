@@ -15,7 +15,7 @@ public class queue {
          */
 
          Queue<String> queue = new LinkedList<String>();
-        System.out.println(queue.isEmpty());
+         System.out.println(queue.isEmpty());
          queue.offer("Karen");
          queue.offer("Chad");
          queue.offer("Steve");
