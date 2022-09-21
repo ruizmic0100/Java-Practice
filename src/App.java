@@ -2,6 +2,11 @@ import java.util.Stack;
 
 public class App {
     public static void main(String[] args) {
+        /* Stack = LIFO Data structure. Last In First Out.
+         *         stores objects into a sort of "vertical tower".
+         *         push() to add to the top.
+         *         pop() to remove from the top.
+         */
         Stack<String> stack = new Stack<String>();
 
         stack.push("Minecraft");
